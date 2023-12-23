@@ -30,8 +30,8 @@ class GetDataActivity : AppCompatActivity() {
             var destinyv =
 
                 binding.DD.text.toString() +
-                        binding.MM.text.toString() +
-                        binding.YY.text.toString()
+                        binding.MM.text.toString().trim() +
+                        binding.YY.text.toString().trim()
 
 
 
